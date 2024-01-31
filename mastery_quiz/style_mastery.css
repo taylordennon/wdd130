@@ -1,0 +1,37 @@
+
+   .one{ margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+   }
+
+   .two{    
+    font-size: 3em;
+    background-color: aqua;
+    color: white;
+    text-align: center;
+    }
+
+h1{
+    font-size: 2em;
+}
+
+img{
+    max-width: 350px;
+    padding: 15px;
+    float: right;
+}
+
+section{
+    margin: 50px;
+    background-color: lightgrey;
+    border: solid 2px black;
+    border-radius: 25px;
+    color: purple;
+    overflow: auto;
+}
+
+    .three{
+        color: orange;
+    }
