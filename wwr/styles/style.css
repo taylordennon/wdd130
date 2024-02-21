@@ -1,10 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Micro+5&family=Protest+Revolution&display=swap');
+
 #content{
-    max-width: 400px;
+    max-width: 1600px;
     margin: 0 auto;
+}
+.logo{
+    width: 80px;
+}
+#logo_link{
+    padding-top: 5px;
 }
 nav a{
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1{
     text-align: center;
@@ -26,6 +35,9 @@ section{
 }
 body{
     background-color: #cbc9c9;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: #5580ad;
@@ -34,13 +46,13 @@ nav a:hover{
     background-color: black;
 
 }
-.book{
+.book, .join{
     background-color: #cbc9c9;
     text-decoration: none;
-}
-.join{
-    background-color: #cbc9c9;
-    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color: black;
@@ -53,35 +65,58 @@ nav a:hover{
 }
 .msg{
     background-color: #cbc9c9;
+    line-height: 1.5em;
+    padding: 35px;
 }
-footer{
-    background-color: #5580ad;
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
 #hero-img{
     width: 100%;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
+
+.msg p{
+    color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+.msg h2{
+    color: black;
+    font-family: "Micro 5", "Protest Revolution", sans-serif;
+
+}
+.home-title{
+    color: black;
+    font-family: "Micro 5", "Protest Revolution", sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+h2{
+    margin: 0;
+}
+footer{
+    background-color: #5580ad;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+footer p{
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: none;
+}  
 footer a{
     color: black;
     text-decoration: none;
 }
 footer a:hover{
     color: black;
+    text-decoration: none;
 }
-.msg p{
-    color: black;
-}
-.msg h2{
-    color: black;
-}
-.home-title{
-    color: black;
-}
-footer p{
-    font-size: 1.2em;
-}
-footer p a:hover {
-    text-decoration: underline;
-}    
