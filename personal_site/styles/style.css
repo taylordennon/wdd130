@@ -32,8 +32,15 @@ nav a{
     color: white;
 }
 
-.header_img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.banner{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.header_box{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+.header_image{
+    width: 90%;
 }

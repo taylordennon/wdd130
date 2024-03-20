@@ -1,0 +1,43 @@
+body{
+    background-color: lightgray;
+}
+.post {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+.top{
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr 1fr 20px;
+    align-items: center;
+}
+.profile_pic{
+    max-width: 75px;
+    border-radius: 50%;
+    border-style: hidden;
+    padding: 5px;
+}
+.profile_name{
+
+}
+.time{
+    grid-column: 4/5;
+    font-size: 20px;
+    color: lightgray;
+}
+.fa fa-ellipsis-v{
+    grid-column: 5/6;
+}
+.food{
+    max-width: 100%;
+    padding-top: 5px;
+    
+}
+.bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.fa fa-heart-o{
+    grid-column: 6/7;
+}
