@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FTC</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="main_content">
+        <header>
+            <nav>
+                <a class="leftnav"href="index.html">Home</a>
+                <a href="extensions.html">Extensions</a>
+                <a class="rightnav"href="faq.html">FAQ</a>
+            </nav>
+        </header>
+
+<div class="banner">
+    <div class="header_box">
+        <img class="header_image" src="images/banner.png" alt="headerimg">
+    </div>
+
+    <h1>Frequently Asked Questions</h1>
+    <section class="questions">
+        <button class="accordion roundedtop">Can we add LTIs or Apps to Canvas?</button>
+        <div class="panel">
+        <p> No  that has to be done by the I-Learn Governance Council. LTI Requests go to Dean Allen.</p>
+        </div>
+
+        <button class="accordion">Which subaccount do we put sandboxes in?</button>
+        <div class="panel">
+        <p>The "sandbox" subaccount should only contain data that can be wiped. If the teacher is trying to develop courses with a sandbox, they should be placed in the department subaccount (to avoid them being erased).</p>
+        </div>
+
+        <button class="accordion">Why does a teacher keep getting removed from their course?</button>
+        <div class="panel">
+        <p>If an instructor is not the lead instructor in a course, they automatically be removed when the bridge runs. They need to be added back in as Teacher (secondary) if they are not the primary instructor.</p>
+        </div>
+
+        <button class="accordion">Should we change the terms of past courses?</button>
+        <div class="panel">
+        <p>Short answer: No. Long answer: When you change the term, past courses become avaliable to students when it should not.  If there is a need to extend access to a student then an 'extended incomplete section' needs to be created to extend that access.  Or the course dates (both begin and end) need to be set for special classes like an internship that goes longer that the semester. (Level 3 ticket)</p>
+        </div>
+                
+        <button class="accordion">How does a teacher create an extra credit assignment?</button>
+        <div class="panel">
+        <p>If gradebook ISN'T weighted  use an assignment with a point value of 0. If gradebook IS weighted  use an assignment group that takes the total higher than 100%  and ALSO set the assignment within to have a point value. If it doesn't have a point value  it will not work </p>
+        </div>
+                
+        <button class="accordion roundedbottom">How can due dates be changed in bulk?</button>
+        <div class="panel">
+        <p>If you're importing the couse, check the box "Adjust Events and Due Dates"- or if the course is already imported, in the assignments tab click the three dots on the right hand corner and select "Edit Assignment Dates"</p>
+        </div>
+    </section> 
+</div>
+    
+
+</body>
+</html>
+
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+
+        /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+        panel.style.display = "none";
+        } else {
+        panel.style.display = "block";
+        }
+    });
+    }   
+</script>
