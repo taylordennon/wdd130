@@ -174,3 +174,9 @@ body {
     border-top: 1px solid;
     border-right: 1px solid;
   }
+  .banner{
+    width: 800px;
+  }
+  .icon{
+    width: 100px;
+  }
